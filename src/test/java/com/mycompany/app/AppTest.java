@@ -18,7 +18,6 @@ public class AppTest
     @Before
     public void setUpStreams() {
         System.setOut(new PrintStream(outContent));
-        System.out.println(outContent.toString());
     }
 
     @Test
